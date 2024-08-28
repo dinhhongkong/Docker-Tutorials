@@ -6,6 +6,9 @@ Lệnh này sẽ chạy một container mới trong chế độ nền (detached 
 ### `docker container stop <container>`
 Lệnh này sẽ dừng một container đang chạy. Bạn có thể xác định container bằng ID hoặc tên của nó. Lệnh này gửi tín hiệu SIGTERM tới container để yêu cầu nó dừng lại một cách an toàn.
 
+### `docker start <container_id_or_name>`
+Lệnh này để khởi động một container khi đã xác định được ID hoặc tên của container
+
 ### `docker container rm <container>`
 Lệnh này sẽ xóa (remove) một container đã dừng. Điều này giúp bạn dọn dẹp các container không còn sử dụng nữa. Nếu container đang chạy, bạn cần phải dừng nó trước khi xóa.
 
